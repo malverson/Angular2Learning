@@ -15,11 +15,14 @@ import { ArtistSearchComponent } from './artist-search/artist-search.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 import { routing } from './app.routing';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({ 
   declarations: [
     AppComponent, GalleryComponent, LikeHeartComponent, VoterComponent, ImagesComponent, 
-    ImageComponent, ZippyComponent, SignupFormComponent, ArtistSearchComponent, NavbarComponent
+    ImageComponent, ZippyComponent, SignupFormComponent, ArtistSearchComponent, NavbarComponent, SidebarComponent, BreadcrumbsComponent, FooterComponent
   ],
   imports: [
     BrowserModule,
